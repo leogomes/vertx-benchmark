@@ -1,0 +1,10 @@
+{
+  "simulation": "vertx.VertxInitialBufferSimulation",
+  "simulationId": "vertxinitialbuffersimulation",
+  "start": 1490283981924,
+  "description": "",
+  "scenarios": ["My scenario"],
+  "assertions": [
+
+  ]
+}

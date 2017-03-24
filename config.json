@@ -1,4 +1,4 @@
 {
   "http.port" : 8083,
-  "initial.buffer" : 1024
+  "initial.buffer" : 2048
 }
