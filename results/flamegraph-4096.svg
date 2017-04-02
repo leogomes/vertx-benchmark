@@ -425,7 +425,7 @@
 <text text-anchor="" x="25.51" y="763.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle.start(io.vertx.core.Future) (9 samples, 0.56%)</title><rect x="1181.2" y="897" width="6.6" height="15.0" fill="rgb(238,146,48)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer.start(io.vertx.core.Future) (9 samples, 0.56%)</title><rect x="1181.2" y="897" width="6.6" height="15.0" fill="rgb(238,146,48)" rx="2" ry="2" />
 <text text-anchor="" x="1184.17" y="907.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -1889,7 +1889,7 @@
 <text text-anchor="" x="1183.43" y="923.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle$$Lambda$27.373626560.handle(java.lang.Object) (6 samples, 0.37%)</title><rect x="13.7" y="577" width="4.4" height="15.0" fill="rgb(219,149,34)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer$$Lambda$27.373626560.handle(java.lang.Object) (6 samples, 0.37%)</title><rect x="13.7" y="577" width="4.4" height="15.0" fill="rgb(219,149,34)" rx="2" ry="2" />
 <text text-anchor="" x="16.68" y="587.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -2001,7 +2001,7 @@
 <text text-anchor="" x="1073.01" y="587.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >io.nett..</text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle$$Lambda$27.373626560.handle(java.lang.Object) (3 samples, 0.19%)</title><rect x="18.1" y="561" width="2.2" height="15.0" fill="rgb(230,26,22)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer$$Lambda$27.373626560.handle(java.lang.Object) (3 samples, 0.19%)</title><rect x="18.1" y="561" width="2.2" height="15.0" fill="rgb(230,26,22)" rx="2" ry="2" />
 <text text-anchor="" x="21.10" y="571.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -2409,7 +2409,7 @@
 <text text-anchor="" x="1187.11" y="427.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle.lambda$start$0(io.vertx.core.http.HttpServerRequest) (267 samples, 16.66%)</title><rect x="830.8" y="529" width="196.5" height="15.0" fill="rgb(245,83,27)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer.lambda$start$0(io.vertx.core.http.HttpServerRequest) (267 samples, 16.66%)</title><rect x="830.8" y="529" width="196.5" height="15.0" fill="rgb(245,83,27)" rx="2" ry="2" />
 <text text-anchor="" x="833.77" y="539.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >io.vertx.blog.first.MyFir..</text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -2601,7 +2601,7 @@
 <text text-anchor="" x="1144.42" y="779.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle$$Lambda$27.373626560.handle(java.lang.Object) (3 samples, 0.19%)</title><rect x="11.5" y="593" width="2.2" height="15.0" fill="rgb(207,72,46)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer$$Lambda$27.373626560.handle(java.lang.Object) (3 samples, 0.19%)</title><rect x="11.5" y="593" width="2.2" height="15.0" fill="rgb(207,72,46)" rx="2" ry="2" />
 <text text-anchor="" x="14.47" y="603.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -2909,7 +2909,7 @@
 <text text-anchor="" x="29.19" y="1035.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >io.netty.util.concurrent.SingleThreadEventExecutor$5.run()</text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle$$Lambda$27.373626560.handle(java.lang.Object) (267 samples, 16.66%)</title><rect x="830.8" y="545" width="196.5" height="15.0" fill="rgb(223,140,25)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer$$Lambda$27.373626560.handle(java.lang.Object) (267 samples, 16.66%)</title><rect x="830.8" y="545" width="196.5" height="15.0" fill="rgb(223,140,25)" rx="2" ry="2" />
 <text text-anchor="" x="833.77" y="555.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >io.vertx.blog.first.MyFir..</text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -3117,7 +3117,7 @@
 <text text-anchor="" x="14.47" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle$$Lambda$27.373626560.handle(java.lang.Object) (2 samples, 0.12%)</title><rect x="10.0" y="625" width="1.5" height="15.0" fill="rgb(241,71,1)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer$$Lambda$27.373626560.handle(java.lang.Object) (2 samples, 0.12%)</title><rect x="10.0" y="625" width="1.5" height="15.0" fill="rgb(241,71,1)" rx="2" ry="2" />
 <text text-anchor="" x="13.00" y="635.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -3213,7 +3213,7 @@
 <text text-anchor="" x="1183.43" y="859.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle.lambda$start$0(io.vertx.core.http.HttpServerRequest) (2 samples, 0.12%)</title><rect x="10.0" y="609" width="1.5" height="15.0" fill="rgb(222,136,13)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer.lambda$start$0(io.vertx.core.http.HttpServerRequest) (2 samples, 0.12%)</title><rect x="10.0" y="609" width="1.5" height="15.0" fill="rgb(222,136,13)" rx="2" ry="2" />
 <text text-anchor="" x="13.00" y="619.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -3545,7 +3545,7 @@
 <text text-anchor="" x="23.31" y="795.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle.lambda$start$0(io.vertx.core.http.HttpServerRequest) (6 samples, 0.37%)</title><rect x="13.7" y="561" width="4.4" height="15.0" fill="rgb(222,222,29)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer.lambda$start$0(io.vertx.core.http.HttpServerRequest) (6 samples, 0.37%)</title><rect x="13.7" y="561" width="4.4" height="15.0" fill="rgb(222,222,29)" rx="2" ry="2" />
 <text text-anchor="" x="16.68" y="571.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -3633,7 +3633,7 @@
 <text text-anchor="" x="1186.37" y="683.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle.lambda$start$0(io.vertx.core.http.HttpServerRequest) (3 samples, 0.19%)</title><rect x="18.1" y="545" width="2.2" height="15.0" fill="rgb(217,202,13)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer.lambda$start$0(io.vertx.core.http.HttpServerRequest) (3 samples, 0.19%)</title><rect x="18.1" y="545" width="2.2" height="15.0" fill="rgb(217,202,13)" rx="2" ry="2" />
 <text text-anchor="" x="21.10" y="555.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
@@ -4729,7 +4729,7 @@
 <text text-anchor="" x="800.65" y="539.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
-<title>io.vertx.blog.first.MyFirstVerticle.lambda$start$0(io.vertx.core.http.HttpServerRequest) (3 samples, 0.19%)</title><rect x="11.5" y="577" width="2.2" height="15.0" fill="rgb(218,29,26)" rx="2" ry="2" />
+<title>io.vertx.benchmark.ProxyServer.lambda$start$0(io.vertx.core.http.HttpServerRequest) (3 samples, 0.19%)</title><rect x="11.5" y="577" width="2.2" height="15.0" fill="rgb(218,29,26)" rx="2" ry="2" />
 <text text-anchor="" x="14.47" y="587.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
 </g>
 <g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
