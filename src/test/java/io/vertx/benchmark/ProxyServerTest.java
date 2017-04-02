@@ -1,7 +1,9 @@
-package io.vertx.blog.first;
+package io.vertx.benchmark;
 
+import io.netty.handler.codec.http.HttpRequest;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
+import io.vertx.core.http.HttpClientRequest;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.unit.Async;
 import io.vertx.ext.unit.TestContext;
@@ -12,10 +14,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import java.io.IOException;
-import java.net.ServerSocket;
 
 @RunWith(VertxUnitRunner.class)
-public class MyFirstVerticleTest {
+public class ProxyServerTest {
 
     private Vertx vertx;
 
@@ -28,7 +29,10 @@ public class MyFirstVerticleTest {
         DeploymentOptions option = new DeploymentOptions()
             .setConfig(new JsonObject().put("http.port", port));
         vertx = Vertx.vertx();
-        vertx.deployVerticle(MyFirstVerticle.class.getName(),
+
+        vertx.deployVerticle(ProxyServer.class.getName(),
+                context.asyncAssertSuccess());
+        vertx.deployVerticle(EchoServer.class.getName(),
                 context.asyncAssertSuccess());
     }
 
@@ -41,10 +45,13 @@ public class MyFirstVerticleTest {
     public void testMyApplication(TestContext context) {
         final Async async = context.async();
 
-        vertx.createHttpClient().getNow(port    , "localhost", "/",
+        HttpClientRequest req = vertx.createHttpClient().post(port, "localhost", "/",
                 response -> response.handler(body -> {
+                    System.out.println("Received response: " + body.toString());
                     context.assertTrue(body.toString().contains("Hello"));
                     async.complete();
                 }));
+
+        req.end("Hello");
     }
 }
