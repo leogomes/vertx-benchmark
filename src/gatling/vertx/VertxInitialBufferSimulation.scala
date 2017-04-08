@@ -7,7 +7,7 @@ import scala.concurrent.duration._
 class VertxInitialBufferSimulation extends Simulation {
 
   val httpConf = http
-    .baseURL("http://localhost:8083") // Here is the root for all relative URLs
+    .baseURL("http://familiabuscape:8083") // Here is the root for all relative URLs
     .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8") // Here are the common headers
     .acceptLanguageHeader("en-US,en;q=0.5")
     .userAgentHeader("Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0")
@@ -42,13 +42,13 @@ class VertxInitialBufferSimulation extends Simulation {
 
     .header("Header15", "Cras commodo, eros vel semper blandit, quam arcu interdum eros, eu elementum risus justo at nisi. Phasellus viverra nunc eu ex ornare feugiat.")
 
-  val scn = scenario("My scenario").repeat(10) {
+  val scn = scenario("My scenario").repeat(1000){
     exec(
       http("Vertx")
         .get("/")
         .check(status.is(200))
-    )
-  }
+    )}
 
-  setUp(scn.inject(atOnceUsers(1)).protocols(httpConf))
+  setUp(scn.inject(rampUsers(1000) over (60 seconds)).protocols(httpConf))
+
 }
